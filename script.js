@@ -1,11 +1,10 @@
-const url = 'https://thingproxy.freeboard.io/fetch/http://universities.hipolabs.com/search?country=Indonesia';
 const list = document.getElementById('univ-list');
 const jumlahSpan = document.getElementById('jumlah');
 const searchBox = document.getElementById('searchBox');
 
 let allUniversities = [];
 
-fetch(url)
+fetch('hipolabs.json')
   .then(res => res.json())
   .then(data => {
     allUniversities = data.sort((a, b) => a.name.localeCompare(b.name));
