@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+h1 {
+  background-color: red;
+  margin: 0;
+  color: white;
+}
+
+h4 {
+  background-color: white;
+  margin: 0;
+  color: red;
+}
+
+div {
+  margin-top: 40px;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#univ-list li {
+  margin-bottom: 20px;
+  padding: 12px;
+  list-style: decimal;
+  border-bottom: 1px solid #ccc;
+}
+
+#univ-list img {
+  margin: 20px 0 20px;
+  width: 120px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+.logo-error {
+  margin: 10px 0;
+  font-style: italic;
+  color: gray;
+}
+
+.link-label {
+  font-weight: bold;
+}
+
+#univ-list a {
+  margin-left: 5px;
+}
